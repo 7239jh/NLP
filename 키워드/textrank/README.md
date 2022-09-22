@@ -3,7 +3,18 @@ textrank를 활용하여 기본적인 불용어 제거 후 명사 키워드 만 
 textrank는 김현중님의 https://github.com/lovit/textrank 에서 설치  
 # 실행방법
 위에서 받은 패키지 폴더 내에서 ipynb파일 실행  
-추가 불용어제거 원할 경우 regex함수에 추가  
+추가 불용어제거 원할 경우 regex함수에 추가 
+```python
+def regex(x):
+    
+    x=re.sub("\[.*\]|\s-\s.*",'',x)
+    x=re.sub("\(.*\)|\s-\s.*",'',x)
+    x=re.sub("\<.*\>|\s-\s.*",'',x)
+    x=re.sub("\【.*\】|\s-\s.*",'',x)
+    x= re.sub('[-=+#/\?:^$@*\"※~&%ㆍ!』\\‘|\(\)\[\]\<\>`\'…》,▷▶ⓒ]', '', x)
+    
+    return x
+ ```
 komoran, okt 형태소 분석기 중에 선택  
 ```python
 keyword_extractor_komoran = KeywordSummarizer(
