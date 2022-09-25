@@ -9,3 +9,8 @@ for i,j in zip(keys,ranks):
 dic=dict(tag[:50])
 dic
 ```
+
+# 한글 글씨체 로드
+```python
+wc = WordCloud(font_path='D:/mycode/NLP/keyword/wordcloud/gulim.ttc',background_color="white", max_font_size=60)
+```
