@@ -14,5 +14,5 @@ python predict.py --data ./data/test_data.csv --model_fn ./models/test.pth --gpu
 ```
 
 # 참고
-데이터셋: 네이버평점리뷰
+데이터셋: 네이버평점리뷰  
 코드: https://github.com/kh-kim 
