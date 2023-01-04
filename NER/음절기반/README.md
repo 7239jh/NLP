@@ -23,4 +23,4 @@ PR-I: 가격 엔티티 시작
 
 
 # 참고
-사전모델학습: https://github.com/monologg/KoCharELECTRA
+사전학습모델: https://github.com/monologg/KoCharELECTRA
