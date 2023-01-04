@@ -21,6 +21,8 @@ PR-I: 가격 엔티티 시작
 2. data폴더내에 본인이 학습시킬 음절레이블링이된 데이터셋을 저장한다.(train.tsv, valid.tsv, test.tsv)
 3. KoCharELECTRA_master폴더가 있는 폴더내에서 ner_character.ipynb을 실행
 
+# 샘플 결과
+![ner_pred](https://user-images.githubusercontent.com/94896717/210491793-6ec35ee9-0741-418c-b8a2-a2a8c21a8d4b.png)  
 
 # 참고
 사전학습모델: https://github.com/monologg/KoCharELECTRA
