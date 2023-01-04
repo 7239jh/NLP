@@ -4,7 +4,17 @@
 
 # 데이터
 음절 레이블링  
-![ner_train_char](https://user-images.githubusercontent.com/94896717/210489190-a438f152-5cc6-411c-a406-13190d138e16.png)
+![ner_train_char](https://user-images.githubusercontent.com/94896717/210489190-a438f152-5cc6-411c-a406-13190d138e16.png)  
+  
+레이블 종류  
+UNK: unknown
+O: 의미없는 엔티티
+DAT-B: 날짜, 시간 관련 엔티티시작
+DAT-I: 날짜, 시간 관련 엔티티시작이후
+ST-B: 종목 엔티티 시작
+ST-I: 종목 엔티티 시작이후
+PR-B: 가격 엔티티 시작
+PR-I: 가격 엔티티 시작 
 
 # 실행방법
 1. 박장원님이 개발하신 사전학습모델인 KoCharELEcTRA모델을 https://github.com/monologg/KoCharELECTRA에서 받아서 설치한다.
