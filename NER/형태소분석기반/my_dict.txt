@@ -1,0 +1,11 @@
+두산에너빌리티	NNG
+LG에너지솔루션	NNG
+CJ제일제당 우	NNG
+SK하이닉스	NNG
+삼성바이오로직스	NNG
+LG화학	NNG
+현대차	NNG
+삼성SDI	NNG
+NAVER	NNG
+기아	NNG
+삼성전자	NNG
