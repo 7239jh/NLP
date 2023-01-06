@@ -21,3 +21,5 @@ pr: 가격
 5. 금융도메인의 형태소사전으로 교체
 6. 코모란 형태소분석기를 활용하여 NER분석
 
+# 참고
+1. symspellpy_ko: https://github.com/HeegyuKim/symspellpy-ko  
