@@ -7,7 +7,7 @@ python ktextaug_eda.py --data ./dataset/naverex.csv --eda ./dataset/naverex_eda.
 ```
 # 실행 결과
 <증강전>  
-![naverex](https://user-images.githubusercontent.com/94896717/212211365-65bec17f-0f7f-4f77-a243-9af63ed3aad9.png)  
+![naverex1](https://user-images.githubusercontent.com/94896717/212211894-e5126da5-beaa-4d8c-ba65-2706b29821e9.png) 
 
 <증강후>  
 ![naverexeda](https://user-images.githubusercontent.com/94896717/212211374-0b44a564-a581-4da2-b907-04d29e7d9a24.png)
